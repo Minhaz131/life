@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*header start*/
+header{
+    width: 100%;
+    height: 550px;
+    background-color: #FF5733;
+    color: #000;
+    text-align: center;
+    position: relative;
+}
+.dt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: table;
+}
+.dtc{
+    display: table-cell;
+    vertical-align: middle;
+}
+/*header End*/
+h2{
+    margin: 30px;
+    text-align: center;
+}
+/*---------------h2 End------------------------*/
+
+/*------------.box start-----------------------*/
+
+.box{
+    width: 29%;
+    height: 300px;
+    position: relative;
+    margin: 29px;
+    float: left;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.obverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+}
+h3{
+    margin-top: 150px;
+}
+.box:hover .obverlay{
+    visibility: visible;
+}
+.obverlay button{
+    border: none;
+    font-size: 15px;
+    padding: 18px 30px;
+    border-radius: 4px 30px;
+}
